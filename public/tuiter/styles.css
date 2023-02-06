@@ -1,0 +1,9 @@
+/*apply to entire page of the website*/
+body {
+    background-color: black;
+    border-style: solid;
+    border-color: rgb(47,41,54);
+    font-family: sans-serif;
+    padding-left:16px;
+}
+
