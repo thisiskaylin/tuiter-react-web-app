@@ -1,76 +1,71 @@
-.wd-search-bar {
-    background-color: darkgray;
-    color: white;
-    border-radius: 20px;
-    padding-right: 12px;
-    width: 80%;
-    border: none;
-    height: 30px;
-    margin: 5px;
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
 
-.wd-hyperlink {
-    padding-left: 15px;
-    display: flex;
+#tweet-button {
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.list-group-item button {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    border-radius: 30px;
+    text-indent: 30px;
+    border: 2px solid lightgrey;
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.search .fa-search {
     position: absolute;
+    top: 11px;
+    left:25px;
 }
 
-.wd-hyperlink-for-you a{
-    float: left;
-    text-decoration: none;
-    color: rgb(29,161,242);
-    font-size: 15px;
-    padding: 16px;
-    border-bottom-color: rgb(29,161,242);
-    border-width: 4px;
-    border-bottom-style: solid;
+.navigation-tabs {
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
-.wd-hyperlink-li a{
-    float:left;
-    text-decoration: none;
-    color: rgb(110,118,125);
-    font-size:15px;
-    padding: 16px;
-}
-
-.wd-topic {
-    font-size: 13px;
-    color: rgb(110,118,125)
-}
-
-.wd-author {
+.image-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
     color: white;
 }
 
-.wd-profile-picture{
-    float:right;
-    border-radius: 15px;
-    height: 100px;
-    width: 100px;
-    right: 16px;
+.text-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
-.wd-grid-row {
-    clear: both;
+.card-post-image {
+    width: 100%;
     padding: 10px;
+    border-radius: 25px;
+    object-fit: cover;
 }
 
-#selector-1 {
-    padding:10px;
+.right-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
 }
-
-.wd-title {
-    color: white;
-    font-weight: 600;
-}
-
-.wd-elipse {
-    color:rgb(110,118,125);
-    font-size:20px;
-    float:right;
-    right: 16px;
-}
-
-
-

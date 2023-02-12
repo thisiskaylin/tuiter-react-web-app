@@ -1,0 +1,126 @@
+/*overall look and colors*/
+body {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.wd-tuiter-blue {
+    color: rgb(29, 155,240);
+}
+
+.wd-tuiter-font-grey {
+    color: rgb(118, 118, 118);
+}
+
+/*left container - button*/
+#wd-tweet-button {
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 12px;
+    background-color: rgb(29, 155,240);
+    border-color: rgb(29, 155,240);
+}
+
+/*center - search bar and setting sign*/
+.wd-search {
+    position: relative;
+}
+
+.wd-search input {
+    border-radius: 30px;
+    text-indent: 30px;
+    border: 2px solid #F1F1F1;
+    background-color: #F1F1F1;
+}
+
+.wd-search input:focus {
+    box-shadow: none;
+    border: 2px solid blue;
+}
+
+.wd-search .fa-search {
+    position: absolute;
+    top: 11px;
+    left:25px;
+}
+
+/*center container - nav bars*/
+.wd-navigation-tabs {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-nav-focus {
+    border-bottom: rgb(29, 155,240) solid 5px !important;
+}
+
+/*center container - main image left side text*/
+.wd-image-text {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.wd-text-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 12px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wd-text-bottom-left-small {
+    position: absolute;
+    bottom: 40px;
+    left: 12px;
+    font-size: 12px;
+}
+
+/*center container - small post images*/
+.wd-card-post-image {
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.wd-ellipsis-position {
+    position: absolute;
+    top: 20px;
+    right:-80px;
+    object-fit: cover;
+}
+
+
+/*right container - follow suggest*/
+.wd-right-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.wd-right-img-square {
+    width: 45px;
+    height: 45px;
+    border-radius: 10%;
+}
+
+/*right container - follow suggest buttons*/
+.list-group-item button {
+    border-radius: 25px;
+    width: 100%;
+    background-color: black;
+    border-color: white;
+}
+
+/*right container - follow suggest background*/
+.wd-follow-suggest .list-group-item {
+    background-color: #F1F1F1;
+}
+
+.wd-follow-suggest .list-group {
+    border-radius: 25px !important;
+}
