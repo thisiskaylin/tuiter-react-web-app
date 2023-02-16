@@ -1,55 +1,57 @@
+/*overall look and colors*/
 body {
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
 }
 
-#tweet-button {
-    margin-top: 10px;
-    border-radius: 50px;
-    width: 100%;
-    font-size: 12px;
+.wd-tuiter-blue {
+    color: #2a9fd6;
 }
 
-.list-group-item button {
-    border-radius: 25px;
-    width: 100%;
+/*left container*/
+.wd-navbar .list-group-item :hover {
+    color: white;
+    background-color: #2a9fd6 ;
 }
 
-.search {
+/*center - search bar and setting sign*/
+.wd-search {
     position: relative;
 }
 
-.search input {
+.wd-search input {
     border-radius: 30px;
     text-indent: 30px;
     border: 2px solid lightgrey;
 }
 
-.search input:focus {
+.wd-search input:focus {
     box-shadow: none;
     border: 2px solid blue;
 }
 
-.search .fa-search {
+.wd-search .fa-search {
     position: absolute;
     top: 11px;
     left:25px;
 }
 
-.navigation-tabs {
+/*center container - nav bars*/
+.wd-navigation-tabs {
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
-.image-text {
+/*center container - main image left side text*/
+.wd-image-text {
     position: relative;
     width: 100%;
     text-align: center;
     color: white;
 }
 
-.text-bottom-left {
+.wd-text-bottom-left {
     position: absolute;
     bottom: 8px;
     left: 12px;
@@ -57,15 +59,23 @@ body {
     font-size: 30px;
 }
 
-.card-post-image {
-    width: 100%;
-    padding: 10px;
-    border-radius: 25px;
-    object-fit: cover;
-}
+/*center container - small post images*/
+/*.wd-card-post-image {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    border-radius: 25px;*/
+/*    object-fit: cover;*/
+/*}*/
 
-.right-img {
+/*right container - follow suggest image*/
+.wd-right-img {
     width: 45px;
     height: 45px;
     border-radius: 50%;
+}
+
+/*right container - follow suggest buttons*/
+.list-group-item button {
+    border-radius: 25px;
+    width: 100%;
 }
