@@ -60,7 +60,6 @@ body {
 }
 
 /*center container - small post images*/
-
 .card{
     border-radius: 1em;
     background-color: transparent;
@@ -74,7 +73,6 @@ body {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
-
 
 /*right container - follow suggest image*/
 .wd-right-img {
