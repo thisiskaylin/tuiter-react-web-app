@@ -17,7 +17,7 @@ const PostItem = (post) => {
     };
 
     return (`
-        <div class="list-group-item">
+        <div class="list-group-item ms-3 me-3">
             <div class="row pt-3 border border-light"> 
                 
                 <div class="col-1">
