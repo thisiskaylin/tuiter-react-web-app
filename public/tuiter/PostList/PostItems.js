@@ -51,6 +51,5 @@ const PostItem = (post) => {
             </div>
         </div> 
     `);
-
 }
 export default PostItem
