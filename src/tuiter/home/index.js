@@ -1,5 +1,6 @@
 import React from 'react';
-import PostList from "../../../public/tuiter/PostList";
+import PostList from "../PostList";
+
 const HomeComponent = () => {
     return(
         <>
