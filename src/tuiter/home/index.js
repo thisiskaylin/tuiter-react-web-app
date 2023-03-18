@@ -1,10 +1,10 @@
 import React from 'react';
-import PostList from "../PostList";
+import TuitList from '../tuits/index'
 
 const HomeComponent = () => {
     return(
         <>
-            <PostList/>
+            <TuitList/>
         </>
     )
 }
