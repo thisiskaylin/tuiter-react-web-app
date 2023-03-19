@@ -5,7 +5,7 @@
     "title": "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
     "time": "2h",
     "image": "../../../images/tesla.png",
-    "liked": true,
+    "liked": false,
     "stats": {
       "replies": 123,
       "retuits": 432,
@@ -23,7 +23,7 @@
     "image": "../../../images/spacex.png",
     "liked": true,
     "stats": {
-      "replies": 123,
+      "replies": 234,
       "retuits": 432,
       "likes": 2345
     },
@@ -39,7 +39,7 @@
     "image": "../../../images/tesla.png",
     "liked": true,
     "stats": {
-      "replies": 123,
+      "replies": 345,
       "retuits": 432,
       "likes": 2345
     },

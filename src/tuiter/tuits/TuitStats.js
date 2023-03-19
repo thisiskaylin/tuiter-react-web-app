@@ -1,8 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
 import { useDispatch } from "react-redux";
-
+import {likeTuit} from "./tuits-reducer";
 
 const TuitStats = ({ tuit }) => {
+
+    const dispatch = useDispatch()
+
+    const likeClickHandler = (id) => {
+        dispatch(likeTuit(id));
+    };
 
     return (
         <div className="row mt-2">
@@ -17,9 +23,9 @@ const TuitStats = ({ tuit }) => {
                 {tuit.stats.retuits}
             </div>
 
-            <div className="col">
+            <div className="col" onClick={likeClickHandler(tuits)}>
                 {tuit.liked &&
-                    <i className="bi bi-heart me-2" style={{ color: tuit.liked ? 'red' : "white" }}></i>
+                    <i className="bi bi-heart-fill me-2" style={{ color: tuit.liked ? 'red' : "white" }}></i>
                 }
                 {!tuit.liked &&
                     <i className="bi bi-heart me-2"></i>
