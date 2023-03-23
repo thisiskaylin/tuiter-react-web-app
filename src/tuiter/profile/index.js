@@ -6,7 +6,7 @@ const ProfileComponent = () => {
     const profile = useSelector((state) => state.profile);
 
     // const getDateOfBirth = (dateOfBirth) => {
-    //     let dobDates = dateOfBirth.split('/')
+    //     let dobDates = dateOfBirth.split('-' || "/")
     //     let month = dobDates[0]
     //     let date = dobDates[1]
     //     let year = dobDates[2]

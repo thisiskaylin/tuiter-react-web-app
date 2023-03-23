@@ -19,7 +19,7 @@ const EditProfile = () => {
     const nameChangeHandler = (event) => {
         const name = event.target.value;
         const [firstName, lastName] = name.split(" ");
-        userProfile({
+        saveProfile({
             ...userProfile,
             firstName: firstName,
             lastName: lastName,
@@ -57,8 +57,8 @@ const EditProfile = () => {
                 </div>
                 <div className="form-floating mb-3">
                     <textarea onChange={(e) =>
-                        userProfile({
-                            ...profile,
+                        saveProfile({
+                            ...userProfile,
                             bio:e.target.value
                         })
                     } className="form-control border border-gray"
@@ -69,8 +69,8 @@ const EditProfile = () => {
                 </div>
                 <div className="form-floating mb-3">
                     <input onChange={(e) =>
-                        userProfile({
-                            ...profile,
+                        saveProfile({
+                            ...userProfile,
                             location:e.target.value
                         })
                     } type="text" className="form-control border border-gray"
@@ -80,8 +80,8 @@ const EditProfile = () => {
                 </div>
                 <div className="form-floating mb-3">
                     <input onChange={(e) =>
-                        userProfile({
-                            ...profile,
+                        saveProfile({
+                            ...userProfile,
                             website:e.target.value
                         })
                     } type="text" className="form-control border border-gray"
@@ -90,13 +90,13 @@ const EditProfile = () => {
                     <label>Website</label>
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="Birth date" className="form-label">Birth date</label>
+                    <label htmlFor="Birth date" className="form-label gray">Birth date</label>
                     <input onChange={(e) =>
-                        userProfile({
-                            ...profile,
+                        saveProfile({
+                            ...userProfile,
                             dateOfBirth:e.target.value
                         })
-                    } type="email" className="form-control" id="Birth date" defaultValue={profile.dateOfBirth}
+                    } type="text" className="form-control" id="Birth date" defaultValue={profile.dateOfBirth}
 
                     />
                 </div>
