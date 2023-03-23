@@ -6,14 +6,12 @@
     "time": "2h",
     "image": "../../../images/tesla.png",
     "liked": false,
-    "stats": {
-      "replies": 123,
-      "retuits": 432,
-      "likes": 2345
-    },
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
     "handle": "spacex",
     "verified": true,
-    "tuitcontent": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   },
   { "_id": 234,
     "topic": "Space",
@@ -22,14 +20,12 @@
     "time": "2h",
     "image": "../../../images/spacex.png",
     "liked": true,
-    "stats": {
-      "replies": 234,
-      "retuits": 432,
-      "likes": 2345
-    },
+    "replies": 234,
+    "retuits": 432,
+    "likes": 2345,
     "handle": "spacex",
     "verified": true,
-    "tuitcontent": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   },
   { "_id": 345,
     "topic": "Energy",
@@ -38,13 +34,11 @@
     "time": "4d",
     "image": "../../../images/tesla.png",
     "liked": true,
-    "stats": {
-      "replies": 345,
-      "retuits": 432,
-      "likes": 2345
-    },
+    "replies": 345,
+    "retuits": 432,
+    "likes": 2345,
     "handle": "spacex",
     "verified": true,
-    "tuitcontent": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   }
 ]

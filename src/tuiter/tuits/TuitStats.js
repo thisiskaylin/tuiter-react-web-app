@@ -15,22 +15,22 @@ const TuitStats = ({ tuit }) => {
 
             <div className="col">
                 <i className="bi bi-chat-square me-2"></i>
-                {tuit.stats.replies}
+                {tuit.replies}
             </div>
 
             <div className="col">
                 <i className="bi bi-arrow-repeat me-2"></i>
-                {tuit.stats.retuits}
+                {tuit.retuits}
             </div>
 
-            <div className="col" onClick={likeClickHandler(tuits)}>
+            <div className="col" onClick={() => likeClickHandler(tuit._id)}>
                 {tuit.liked &&
                     <i className="bi bi-heart-fill me-2" style={{ color: tuit.liked ? 'red' : "white" }}></i>
                 }
                 {!tuit.liked &&
                     <i className="bi bi-heart me-2"></i>
                 }
-                {tuit.stats.likes}
+                {tuit.likes}
             </div>
 
             <div className="col">

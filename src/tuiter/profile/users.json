@@ -1,0 +1,15 @@
+ {
+    "id": 1,
+    "firstName": "Kaylin",
+    "lastName": "Lau",
+    "handle": "@KaylinL",
+    "profilePicture": "../images/elon.png",
+    "bannerPicture": "../images/mission.png",
+    "bio": "Student, Software Engineer Intern, Java, Python, and Web development. Retuits and likes are not endorsements.",
+    "website": "youtube.com/webdevtv",
+    "location": "Boston, MA",
+    "dateOfBirth": "1/1/1968",
+    "dateJoined": "April 2019",
+    "followingCount": 340,
+    "followersCount": 223
+ }

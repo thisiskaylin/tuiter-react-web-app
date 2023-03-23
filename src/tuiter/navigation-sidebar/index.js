@@ -10,40 +10,59 @@ const NavigationSidebar = () => {
 
     return (
         <div className="list-group">
-            <a className="list-group-item">Tuiter</a>
-            <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
-                Home
-            </Link>
-            <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
-                Explore
-            </Link>
-            <Link to="/a7" className="list-group-item">
-                Labs
-            </Link>
-            <a className={`list-group-item
-                    ${active === 'notifications'?'active':''}`}>
-                Notifications
-            </a>
-            <a className={`list-group-item
-                    ${active === 'messages'?'active':''}`}>
-                Messages
-            </a>
-            <a className={`list-group-item
-                    ${active === 'bookmarks'?'active':''}`}>
-                Bookmarks
-            </a>
-            <a className={`list-group-item
-                    ${active === 'lists'?'active':''}`}>
-                Lists
-            </a>
-            <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
-                Profile
-            </a>
-            <a className={`list-group-item
-                    ${active === 'more'?'active':''}`}>
-                More
-            </a>
+            <div className="text-nowrap overflow-hidden">
+                <a className="list-group-item">Tuiter</a>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <Link to="/tuiter" className={`list-group-item ${active === undefined || active ===''?'active':''}`}>
+                    <i className="bi bi-house-door-fill"></i> Home
+                </Link>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
+                    <i className="bi bi-search"></i> Explore
+                </Link>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <Link to="/a7" className="list-group-item">
+                    <i className="bi bi-asterisk"></i> Labs
+                </Link>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <a className={`list-group-item
+                        ${active === 'notifications'?'active':''}`}>
+                    <i className="bi bi-bell"></i> Notifications
+                </a>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <a className={`list-group-item
+                        ${active === 'messages'?'active':''}`}>
+                    <i className="bi bi-envelope"></i> Messages
+                </a>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <a className={`list-group-item
+                        ${active === 'bookmarks'?'active':''}`}>
+                    <i className="bi bi-bookmark"></i> Bookmarks
+                </a>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <a className={`list-group-item
+                        ${active === 'lists'?'active':''}`}>
+                    <i className="bi bi-card-text"></i> Lists
+                </a>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <Link to="/tuiter/profile" className={`list-group-item ${active ==='profile' || active ==='edit-profile' ?'active':''}`}>
+                    <i className="bi bi-person"></i> Profile
+                </Link>
+            </div>
+            <div className="text-nowrap overflow-hidden">
+                <a className={`list-group-item
+                        ${active === 'more'?'active':''}`}>
+                    <i className="bi bi-three-dots"></i> More
+                </a>
+            </div>
         </div>
     );
 };
