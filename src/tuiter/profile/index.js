@@ -24,14 +24,14 @@ const ProfileComponent = () => {
                 </div>
             </div>
 
-            <img class="img-fluid ms-0" src={profile.bannerPicture}/>
+            <img class="img-fluid ms-0" src={profile.bannerPicture} alt=""/>
 
             <div className="ms-3 me-3 mb-3">
                 <div className="d-flex align-items-center">
                     <div>
                         <img className="rounded-circle border border-5 border-light"
                             src={profile.profilePicture}
-                            style={{width: "30%", marginTop: "-18%"}}/>
+                            style={{width: "30%", marginTop: "-18%"}} alt=""/>
                     </div>
                     <div>
                         <Link to={'/tuiter/edit-profile'}>

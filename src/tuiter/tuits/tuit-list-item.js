@@ -14,7 +14,8 @@ const TuitListItem = ({tuit}) => {
                 <div className="row">
 
                     <div className="col-auto">
-                        <img className="float-end rounded-circle" src={`../../../images/${tuit.image}`} width="50px" height="50px"/>
+                        <img className="float-end rounded-circle" src={`../../../images/${tuit.image}`}
+                             width="50px" height="50px" alt=""/>
                     </div>
 
                     <div className="col-10">

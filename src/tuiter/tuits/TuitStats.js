@@ -7,7 +7,7 @@ const TuitStats = ({ tuit }) => {
     const dispatch = useDispatch()
     useEffect(() => {
         dispatch(updateTuitThunk())
-    }, [])
+    }, [dispatch])
 
     return (
         <div className="row justify-content-evenly">

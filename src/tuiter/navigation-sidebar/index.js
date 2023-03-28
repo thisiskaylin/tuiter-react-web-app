@@ -11,7 +11,7 @@ const NavigationSidebar = () => {
     return (
         <div className="list-group">
             <div className="text-nowrap overflow-hidden">
-                <a className="list-group-item">Tuiter</a>
+                <a href="#" className="list-group-item">Tuiter</a>
             </div>
             <div className="text-nowrap overflow-hidden">
                 <Link to="/tuiter" className={`list-group-item ${active === undefined || active ===''?'active':''}`}>
@@ -29,25 +29,25 @@ const NavigationSidebar = () => {
                 </Link>
             </div>
             <div className="text-nowrap overflow-hidden">
-                <a className={`list-group-item
+                <a href="#" className={`list-group-item
                         ${active === 'notifications'?'active':''}`}>
                     <i className="bi bi-bell"></i> Notifications
                 </a>
             </div>
             <div className="text-nowrap overflow-hidden">
-                <a className={`list-group-item
+                <a href="#" className={`list-group-item
                         ${active === 'messages'?'active':''}`}>
                     <i className="bi bi-envelope"></i> Messages
                 </a>
             </div>
             <div className="text-nowrap overflow-hidden">
-                <a className={`list-group-item
+                <a href="#" className={`list-group-item
                         ${active === 'bookmarks'?'active':''}`}>
                     <i className="bi bi-bookmark"></i> Bookmarks
                 </a>
             </div>
             <div className="text-nowrap overflow-hidden">
-                <a className={`list-group-item
+                <a href="#" className={`list-group-item
                         ${active === 'lists'?'active':''}`}>
                     <i className="bi bi-card-text"></i> Lists
                 </a>
@@ -58,7 +58,7 @@ const NavigationSidebar = () => {
                 </Link>
             </div>
             <div className="text-nowrap overflow-hidden">
-                <a className={`list-group-item
+                <a href="#" className={`list-group-item
                         ${active === 'more'?'active':''}`}>
                     <i className="bi bi-three-dots"></i> More
                 </a>

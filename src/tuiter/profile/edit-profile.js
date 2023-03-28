@@ -43,12 +43,12 @@ const EditProfile = () => {
                 </div>
             </div>
 
-            <img className="img-fluid ms-0" src={profile.bannerPicture}/>
+            <img className="img-fluid ms-0" src={profile.bannerPicture} alt=""/>
 
             <div className="ms-3 me-3 mb-3">
                 <img className="rounded-circle border border-5 border-light mb-2"
                      src={profile.profilePicture}
-                     style={{width: "25%", marginTop: "-15%"}}/>
+                     style={{width: "25%", marginTop: "-15%"}} alt=""/>
 
                 <div className="form-floating mb-3">
                     <input onChange={nameChangeHandler} type="text" className="form-control border border-gray"
