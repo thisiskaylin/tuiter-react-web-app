@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import {createTuit} from "../tuits/tuits-reducer";
 import {useDispatch} from "react-redux";
+import {createTuitThunk} from "../../services/tuits-thunks";
 
 const WhatsHappening = () => {
     let [whatsHappening, setWhatsHappening] = useState('');
@@ -9,8 +9,7 @@ const WhatsHappening = () => {
         const newTuit = {
             tuit: whatsHappening
         }
-        dispatch(createTuit(newTuit));
-        setWhatsHappening('');
+        dispatch(createTuitThunk(newTuit));
     }
 
     return (
@@ -18,11 +17,12 @@ const WhatsHappening = () => {
             <div className="col-auto">
                 <img src="/images/nasa.png" width={60}/>
             </div>
+
             <div className="col-10">
-       <textarea value={whatsHappening} placeholder="What's happening?"
-                 className="form-control border-0"
-                 onChange={(event) => setWhatsHappening(event.target.value)}>
-       </textarea>
+               <textarea value={whatsHappening} placeholder="What's happening?"
+                         className="form-control border-0"
+                         onChange={(event) => setWhatsHappening(event.target.value)}>
+               </textarea>
                 <div>
                     <button className="rounded-pill btn btn-primary float-end mt-2 ps-3 pe-3 fw-bold"
                             onClick={tuitClickHandler}>

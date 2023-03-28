@@ -11,6 +11,7 @@ const EditProfile = () => {
     const[userProfile, saveProfile] = useState(profile);
     const dispatch = useDispatch();
     const navigate = useNavigate();
+
     const saveChangeHandler = () => {
         dispatch(editProfile(userProfile));
         navigate("/tuiter/profile");

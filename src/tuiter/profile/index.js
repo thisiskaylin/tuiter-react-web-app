@@ -5,14 +5,6 @@ import { Link } from "react-router-dom";
 const ProfileComponent = () => {
     const profile = useSelector((state) => state.profile);
 
-    // const getDateOfBirth = (dateOfBirth) => {
-    //     let dobDates = dateOfBirth.split('-' || "/")
-    //     let month = dobDates[0]
-    //     let date = dobDates[1]
-    //     let year = dobDates[2]
-    //     return month + "/" + date + "/" + year
-    // }
-
     return (
         <div className="container border border-gray ps-0 pe-0">
 
